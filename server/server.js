@@ -32,7 +32,7 @@ mongoose.Promise = global.Promise;
 D.ObjectId = mongoose.mongo.ObjectId;
 D.ObjectValid = mongoose.Types.ObjectId.isValid;
 
-var client = mongoose.createConnection(DB_URI);
+var client = mongoose.createConnection(CONFIG.DB_URI);
 
 D._account = client.model('_account', new Schema({ 
   userId: String,
