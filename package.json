@@ -1,8 +1,7 @@
 {
-  "name": "@onflow/dev-wallet",
+  "name": "kub-wallet",
   "version": "0.0.8",
-  "description": "dev wallet provider service for local development with the flow client library",
-  "homepage": "https://onflow.org",
+  "description": "kub wallet provider service for flow client library",
   "main": "server/index.js",
   "dependencies": {
     "@onflow/fcl-config": "0.0.1",
@@ -30,7 +29,7 @@
     "uuid": "7.0.3"
   },
   "bin": {
-    "fcl-wallet": "./wallet"
+    "kub-wallet": "./wallet"
   },
   "scripts": {
     "prepublishOnly": "npm test && npm run build",
